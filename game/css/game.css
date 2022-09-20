@@ -27,7 +27,6 @@
 }
 
 .front {
-    background-image: url('../image/N01.jpg');
     transform: rotateY(180deg);
 }
 
@@ -36,6 +35,11 @@
     backface-visibility: hidden;
 }
 
-.card:hover {
-    transform: rotateY(180deg);
+.reveal-card {
+        transform: rotateY(180deg);
+}
+
+.disabled-card {
+    filter: saturate(0);
+    opacity: 0.5;
 }
