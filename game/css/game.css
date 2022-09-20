@@ -27,7 +27,7 @@
 }
 
 .front {
-    background-image: url('../image/pexels-miguel-á-padriñán-N1.jpg');
+    background-image: url('../image/N01.jpg');
     transform: rotateY(180deg);
 }
 
